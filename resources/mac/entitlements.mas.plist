@@ -26,12 +26,12 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>UQ8HT4Q2XM.Mattermost.Desktop</string>
+		<string>CS9W9FDEH3.com.nxtchat.eci.desktop</string>
 	</array>
 	<key>com.apple.application-identifier</key>
-	<string>UQ8HT4Q2XM.Mattermost.Desktop</string>
+	<string>CS9W9FDEH3.com.nxtchat.eci.desktop</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>UQ8HT4Q2XM</string>
+	<string>CS9W9FDEH3</string>
 	<key>com.apple.security.files.bookmarks.app-scope</key>
 	<true/>
 	<key>com.apple.security.files.bookmarks.document-scope</key>

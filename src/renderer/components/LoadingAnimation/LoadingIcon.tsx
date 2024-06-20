@@ -143,20 +143,20 @@ function LoadingAnimation() {
                 </g>
             </g>
             <g className='LoadingAnimation__compass'>
-                <g
+                {/* <g
                     className='LoadingAnimation__compass-base-container'
                     mask='url(#LoadingAnimation__base-wipe-mask)'
-                >
-                    <circle
+                > */}
+                    {/* <circle
                         className='LoadingAnimation__compass-base'
                         r='52'
                         cx='52'
                         cy='52'
                         fill='currentColor'
                         mask='url(#LoadingAnimation__base-mask)'
-                    />
-                </g>
-                <g className='LoadingAnimation__compass-needle-container'>
+                    /> */}
+                {/* </g> */}
+                {/* <g className='LoadingAnimation__compass-needle-container'>
                     <g className='LoadingAnimation__compass-needle'>
                         <g transform='translate(54,46)'>
                             <g transform='translate(-15,-42)'>
@@ -167,7 +167,7 @@ function LoadingAnimation() {
                             </g>
                         </g>
                     </g>
-                </g>
+                </g> */}
             </g>
         </svg>
     );

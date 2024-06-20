@@ -5,7 +5,7 @@
     "url": "https://releases.mattermost.com/desktop"
     }
   ],
-  "appId": "Mattermost.Desktop",
+  "appId": "com.nxtchat.eci.desktop",
   "artifactName": "${version}/${name}-${version}-${os}-${arch}.${ext}",
   "directories": {
     "buildResources": "src/assets",
@@ -34,7 +34,7 @@
   ],
   "protocols": [
     {
-      "name": "Mattermost",
+      "name": "ECI",
       "schemes": [
         "mattermost"
       ]
@@ -111,11 +111,11 @@
       "LSFileQuarantineEnabled": true
     },
     "notarize": {
-      "teamId": "UQ8HT4Q2XM"
+      "teamId": "CS9W9FDEH3"
     }
   },
   "mas": {
-    "hardenedRuntime": false,
+    "hardenedRuntime": true,
     "entitlements": "./resources/mac/entitlements.mas.plist",
     "entitlementsInherit": "./resources/mac/entitlements.mas.inherit.plist",
     "entitlementsLoginHelper": "./resources/mac/entitlements.mas.inherit.plist",
